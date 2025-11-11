@@ -1,0 +1,3 @@
+[submodule "finance-predict-api"]
+	path = finance-predict-api
+	url = git@github.com:caiomorozini/finance-predict-api.git
