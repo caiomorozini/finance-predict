@@ -1,0 +1,20 @@
+# Ignorar dados brutos
+data/*.csv
+data/*_raw.csv
+
+# Ignorar cache
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# Ignorar arquivos temporários
+*.log
+.DS_Store
+.vscode/
+
+# Notebooks outputs (mas manter notebooks)
+notebooks/.ipynb_checkpoints/
+
+# NÃO ignorar models/ - necessário para Docker!
+# models/

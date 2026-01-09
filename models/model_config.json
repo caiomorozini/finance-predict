@@ -1,0 +1,20 @@
+{
+    "symbol": "GOOGL",
+    "seq_length": 60,
+    "features": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+    ],
+    "train_size": 1190,
+    "val_size": 255,
+    "test_size": 255,
+    "metrics": {
+        "test_mae": 11.313353131873532,
+        "test_rmse": 13.243400422925347,
+        "test_mape": 6.709616279453446
+    },
+    "training_date": "2026-01-09 01:58:41"
+}
